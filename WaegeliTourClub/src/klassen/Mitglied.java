@@ -4,9 +4,9 @@ import speicher.Speicher;
 
 public class Mitglied extends Person {
 
-	public double akloholProKM;
-	public Waegeli zugehoerigesWaegeli;
-	public Speicher speicher;
+	private double akloholProKM;
+	private Waegeli zugehoerigesWaegeli;
+	private Speicher speicher;
 	
 	public Mitglied(String username, String password, double alkoholProKM, Waegeli zugehoerigesWaegeli) {
 		super(username, password);
